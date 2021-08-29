@@ -11,7 +11,7 @@ public class Professor extends Pessoa { // O extends gera a herança da classe Pe
 	}
 		
 	// Método gest e set de especialidade
-		public String getespecialidade() {
+		public String getEspecialidade() {
 			return especialidade;
 		}
 		public void setEspecialidade(String especialidade) {

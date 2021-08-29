@@ -34,8 +34,8 @@ public class Pessoa {
 		public void setSexo(String sexo) {
 			this.sexo = sexo;
 		}
-		@Overridde
+		@Override
 		public String toString() {
-			return Pessoa("+ "nome: " + nome + ", idade: " + idade "sexo: " + sexo")
+			return Pessoa(+ "nome: " + nome + ", idade: " + idade ", sexo: " + sexo");
 		}
 }
